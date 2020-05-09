@@ -6,7 +6,13 @@ for (let index in carMarkers) {
 }
    
 // handling array with FOR OF loop
-for (let carMaker in carMarkers) {
+for (let carMaker of carMarkers) {
     console.log(carMaker);
+}
+   
+// handling array with FOR IN loop
+let countries = ["Nigeria", "Togo", "Brazil", "France" ];
+for (let country of countries) {
+    console.log(country);
 }
    

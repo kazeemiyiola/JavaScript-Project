@@ -3,4 +3,3 @@ let secondName = 'kunle'
 let fullName = firstname + secondName;
 console.log (firstname);
 
- 
